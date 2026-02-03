@@ -153,8 +153,8 @@ p_VCG(t) = SW_{-i} - (SW - vᵢ(x*))
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/Dima12101/EdgeAgentAuction.git
-cd EdgeAgentAuction
+git clone https://github.com/Dima12101/MA-VCG.git
+cd MA-VCG
 
 # Установка зависимостей
 pip install networkx numpy matplotlib
@@ -245,7 +245,7 @@ SW = Σ Σ Σ x_{i,j}^t · (bᵢ(t) - Cⱼ(t, dᵢ))
 
 ## Цитирование
 
-Если вы используете EdgeAgentAuction в своих исследованиях, пожалуйста, цитируйте:
+Если вы используете MA-VCG в своих исследованиях, пожалуйста, цитируйте:
 
 ```bibtex
 @inproceedings{tereshchenko2025auction,
